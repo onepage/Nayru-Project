@@ -109,7 +109,7 @@ public class GamePadController
             {
                 ControllerConnected[i] = false;
                 if (DebugMode)
-                    Debug.Log("Controller N°" + (i+1) + " connected.");
+                    Debug.Log("Controller N°" + (i+1) + " disconnected.");
             }
         }
     }
