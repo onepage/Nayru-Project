@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 09a352a769430c64ea5d6e09cc04f883
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Chambre
+    100002: Chambre_001
+    100004: Couloir
+    100006: //RootNode
+    100008: PorteChambre
+    100010: PorteChambre_001
+    100012: PorteChambre_002
+    100014: PorteChambre_003
+    100016: PorteChambre_004
+    100018: PorteChambre_005
+    100020: PorteChambre_006
+    100022: PorteChambre_007
+    100024: PorteChambre_008
+    100026: PorteChambre_009
+    400000: Chambre
+    400002: Chambre_001
+    400004: Couloir
+    400006: //RootNode
+    400008: PorteChambre
+    400010: PorteChambre_001
+    400012: PorteChambre_002
+    400014: PorteChambre_003
+    400016: PorteChambre_004
+    400018: PorteChambre_005
+    400020: PorteChambre_006
+    400022: PorteChambre_007
+    400024: PorteChambre_008
+    400026: PorteChambre_009
+    2300000: Chambre
+    2300002: Chambre_001
+    2300004: Couloir
+    2300006: PorteChambre
+    2300008: PorteChambre_001
+    2300010: PorteChambre_002
+    2300012: PorteChambre_003
+    2300014: PorteChambre_004
+    2300016: PorteChambre_005
+    2300018: PorteChambre_006
+    2300020: PorteChambre_007
+    2300022: PorteChambre_008
+    2300024: PorteChambre_009
+    3300000: Chambre
+    3300002: Chambre_001
+    3300004: Couloir
+    3300006: PorteChambre
+    3300008: PorteChambre_001
+    3300010: PorteChambre_002
+    3300012: PorteChambre_003
+    3300014: PorteChambre_004
+    3300016: PorteChambre_005
+    3300018: PorteChambre_006
+    3300020: PorteChambre_007
+    3300022: PorteChambre_008
+    3300024: PorteChambre_009
+    4300000: Chambre_001
+    4300002: PorteChambre_009
+    4300004: PorteChambre_008
+    4300006: PorteChambre_007
+    4300008: PorteChambre_006
+    4300010: PorteChambre_005
+    4300012: PorteChambre_004
+    4300014: PorteChambre_003
+    4300016: PorteChambre_002
+    4300018: PorteChambre_001
+    4300020: PorteChambre
+    4300022: Chambre
+    4300024: Couloir
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
