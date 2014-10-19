@@ -17,6 +17,10 @@ ModelImporter:
     100022: PorteChambre_007
     100024: PorteChambre_008
     100026: PorteChambre_009
+    100028: BathRoom_Archi_mesh
+    100030: Chamber_Archi_mesh
+    100032: Door_Obj_mesh
+    100034: Hallway_Archi_mesh
     400000: Chambre
     400002: Chambre_001
     400004: Couloir
@@ -31,6 +35,10 @@ ModelImporter:
     400022: PorteChambre_007
     400024: PorteChambre_008
     400026: PorteChambre_009
+    400028: BathRoom_Archi_mesh
+    400030: Chamber_Archi_mesh
+    400032: Door_Obj_mesh
+    400034: Hallway_Archi_mesh
     2300000: Chambre
     2300002: Chambre_001
     2300004: Couloir
@@ -44,6 +52,10 @@ ModelImporter:
     2300020: PorteChambre_007
     2300022: PorteChambre_008
     2300024: PorteChambre_009
+    2300026: BathRoom_Archi_mesh
+    2300028: Chamber_Archi_mesh
+    2300030: Door_Obj_mesh
+    2300032: Hallway_Archi_mesh
     3300000: Chambre
     3300002: Chambre_001
     3300004: Couloir
@@ -57,6 +69,10 @@ ModelImporter:
     3300020: PorteChambre_007
     3300022: PorteChambre_008
     3300024: PorteChambre_009
+    3300026: BathRoom_Archi_mesh
+    3300028: Chamber_Archi_mesh
+    3300030: Door_Obj_mesh
+    3300032: Hallway_Archi_mesh
     4300000: Chambre_001
     4300002: PorteChambre_009
     4300004: PorteChambre_008
@@ -70,6 +86,23 @@ ModelImporter:
     4300020: PorteChambre
     4300022: Chambre
     4300024: Couloir
+    4300026: BathRoom_Archi_mesh
+    4300028: Door_Obj_mesh
+    4300030: Chamber_Archi_mesh
+    4300032: Hallway_Archi_mesh
+    6400000: BathRoom_Archi_mesh
+    6400002: Chamber_Archi_mesh
+    6400004: Door_Obj_mesh
+    6400006: Hallway_Archi_mesh
+    6400008: PorteChambre_001
+    6400010: PorteChambre_002
+    6400012: PorteChambre_003
+    6400014: PorteChambre_004
+    6400016: PorteChambre_005
+    6400018: PorteChambre_006
+    6400020: PorteChambre_007
+    6400022: PorteChambre_008
+    6400024: PorteChambre_009
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -92,7 +125,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -122,5 +155,5 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   userData: 

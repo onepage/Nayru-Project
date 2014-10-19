@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class HungerScript : MonoBehaviour
+public class NeedsScript : MonoBehaviour
 {
     [System.Serializable]
     public class Hunger
@@ -71,8 +71,8 @@ public class HungerScript : MonoBehaviour
             hunger.curHunger += hunger.hungerSpeed * Time.deltaTime;
         }
 
-        if (hunger.curHunger >= hunger.maxHunger) Debug.Log("Walks very slowly");//changes the speed of mvt script
-        else Debug.Log("Walks normally");//changes the speed of mvt script
+        if (hunger.curHunger >= hunger.maxHunger) Debug.Log("Walks very slowly"); //changes the speed of mvt script
+        else Debug.Log("Walks normally"); //changes the speed of mvt script
 
         //SLEEP
         if (sleep.isSleeping && sleep.curSleep > sleep.minSleep)
