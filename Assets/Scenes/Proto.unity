@@ -84,6 +84,7 @@ GameObject:
   - 4: {fileID: 149948109}
   - 33: {fileID: 149948108}
   - 23: {fileID: 149948107}
+  - 64: {fileID: 149948110}
   m_Layer: 0
   m_Name: PorteChambre_004
   m_TagString: Untagged
@@ -132,6 +133,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1123276206}
+--- !u!64 &149948110
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400014, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 149948106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300012, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &221883345
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,6 +213,7 @@ GameObject:
   - 4: {fileID: 266836345}
   - 33: {fileID: 266836347}
   - 23: {fileID: 266836346}
+  - 64: {fileID: 266836348}
   m_Layer: 0
   m_Name: Door_Obj_mesh
   m_TagString: Untagged
@@ -246,6 +262,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 266836344}
   m_Mesh: {fileID: 4300028, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &266836348
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400004, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 266836344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300028, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &278117176
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,6 +286,7 @@ GameObject:
   - 4: {fileID: 278117177}
   - 33: {fileID: 278117179}
   - 23: {fileID: 278117178}
+  - 64: {fileID: 278117180}
   m_Layer: 0
   m_Name: Hallway_Archi_mesh
   m_TagString: Untagged
@@ -304,6 +335,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 278117176}
   m_Mesh: {fileID: 4300032, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &278117180
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400006, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 278117176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300032, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &283507225
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,6 +359,7 @@ GameObject:
   - 4: {fileID: 283507226}
   - 33: {fileID: 283507228}
   - 23: {fileID: 283507227}
+  - 64: {fileID: 283507229}
   m_Layer: 0
   m_Name: PorteChambre_005
   m_TagString: Untagged
@@ -362,6 +408,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 283507225}
   m_Mesh: {fileID: 4300010, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &283507229
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400016, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 283507225}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300010, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &591584816
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,6 +432,7 @@ GameObject:
   - 4: {fileID: 591584817}
   - 33: {fileID: 591584819}
   - 23: {fileID: 591584818}
+  - 64: {fileID: 591584820}
   m_Layer: 0
   m_Name: Chamber_Archi_mesh
   m_TagString: Untagged
@@ -420,6 +481,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 591584816}
   m_Mesh: {fileID: 4300030, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &591584820
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400002, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 591584816}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300030, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &780532507
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,6 +505,7 @@ GameObject:
   - 4: {fileID: 780532508}
   - 33: {fileID: 780532510}
   - 23: {fileID: 780532509}
+  - 64: {fileID: 780532511}
   m_Layer: 0
   m_Name: BathRoom_Archi_mesh
   m_TagString: Untagged
@@ -478,6 +554,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 780532507}
   m_Mesh: {fileID: 4300026, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &780532511
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 780532507}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300026, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &812486575
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +578,7 @@ GameObject:
   - 4: {fileID: 812486576}
   - 33: {fileID: 812486578}
   - 23: {fileID: 812486577}
+  - 64: {fileID: 812486579}
   m_Layer: 0
   m_Name: PorteChambre_009
   m_TagString: Untagged
@@ -535,6 +626,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 812486575}
+  m_Mesh: {fileID: 4300002, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &812486579
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400024, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 812486575}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300002, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &1074275202
 GameObject:
@@ -600,7 +705,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1123276206}
-  - 95: {fileID: 1123276207}
   m_Layer: 0
   m_Name: EspaceProto_Mesh
   m_TagString: Untagged
@@ -632,21 +736,6 @@ Transform:
   - {fileID: 1284594235}
   - {fileID: 812486576}
   m_Father: {fileID: 0}
---- !u!95 &1123276207
-Animator:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 09a352a769430c64ea5d6e09cc04f883,
-    type: 3}
-  m_PrefabInternal: {fileID: 1517297221}
-  m_GameObject: {fileID: 1123276205}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_ApplyRootMotion: 1
-  m_AnimatePhysics: 0
-  m_HasTransformHierarchy: 1
 --- !u!1 &1245535350
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,6 +746,7 @@ GameObject:
   - 4: {fileID: 1245535351}
   - 33: {fileID: 1245535353}
   - 23: {fileID: 1245535352}
+  - 64: {fileID: 1245535354}
   m_Layer: 0
   m_Name: PorteChambre_006
   m_TagString: Untagged
@@ -705,6 +795,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 1245535350}
   m_Mesh: {fileID: 4300008, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &1245535354
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400018, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 1245535350}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300008, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &1284594234
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +819,7 @@ GameObject:
   - 4: {fileID: 1284594235}
   - 33: {fileID: 1284594237}
   - 23: {fileID: 1284594236}
+  - 64: {fileID: 1284594238}
   m_Layer: 0
   m_Name: PorteChambre_008
   m_TagString: Untagged
@@ -762,6 +867,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 1284594234}
+  m_Mesh: {fileID: 4300004, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &1284594238
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400022, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 1284594234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300004, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &1485658962
 GameObject:
@@ -1072,6 +1191,7 @@ GameObject:
   - 4: {fileID: 1689599367}
   - 33: {fileID: 1689599369}
   - 23: {fileID: 1689599368}
+  - 64: {fileID: 1689599370}
   m_Layer: 0
   m_Name: PorteChambre_001
   m_TagString: Untagged
@@ -1120,6 +1240,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 1689599366}
   m_Mesh: {fileID: 4300018, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &1689599370
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400008, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 1689599366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300018, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &1723301276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,6 +1264,7 @@ GameObject:
   - 4: {fileID: 1723301277}
   - 33: {fileID: 1723301279}
   - 23: {fileID: 1723301278}
+  - 64: {fileID: 1723301280}
   m_Layer: 0
   m_Name: PorteChambre_002
   m_TagString: Untagged
@@ -1178,6 +1313,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 1723301276}
   m_Mesh: {fileID: 4300016, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &1723301280
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400010, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 1723301276}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300016, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &1745040507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,6 +1337,7 @@ GameObject:
   - 4: {fileID: 1745040508}
   - 33: {fileID: 1745040510}
   - 23: {fileID: 1745040509}
+  - 64: {fileID: 1745040511}
   m_Layer: 0
   m_Name: PorteChambre_007
   m_TagString: Untagged
@@ -1235,6 +1385,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 1745040507}
+  m_Mesh: {fileID: 4300006, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &1745040511
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400020, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 1745040507}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300006, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
 --- !u!1 &1920528308
 GameObject:
@@ -1303,6 +1467,7 @@ GameObject:
   - 4: {fileID: 2131633802}
   - 33: {fileID: 2131633804}
   - 23: {fileID: 2131633803}
+  - 64: {fileID: 2131633805}
   m_Layer: 0
   m_Name: PorteChambre_003
   m_TagString: Untagged
@@ -1350,4 +1515,18 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 1517297221}
   m_GameObject: {fileID: 2131633801}
+  m_Mesh: {fileID: 4300014, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
+--- !u!64 &2131633805
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400012, guid: 09a352a769430c64ea5d6e09cc04f883,
+    type: 3}
+  m_PrefabInternal: {fileID: 1517297221}
+  m_GameObject: {fileID: 2131633801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300014, guid: 09a352a769430c64ea5d6e09cc04f883, type: 3}
