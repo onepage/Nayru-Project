@@ -13,8 +13,8 @@ public class FoodScript : MonoBehaviour
         if (other.tag == "Player")
         {
             //Debug.Log("Eat this!");
-            other.GetComponent<HungerScript>().hunger.eatingValue = foodValue;
-            other.GetComponent<HungerScript>().hunger.isEating = true;
+            other.GetComponent<NeedsScript>().hunger.eatingValue = foodValue;
+            other.GetComponent<NeedsScript>().hunger.isEating = true;
             Destroy(this.gameObject);
         }
 	}
