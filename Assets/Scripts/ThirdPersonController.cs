@@ -96,15 +96,15 @@ public class ThirdPersonController : MonoBehaviour
     moveDirection = transform.TransformDirection(Vector3.forward);
    
     _animation = GetComponent<Animation>();
-    if(!_animation)
-        Debug.Log("The character you would like to control doesn't have animations. Moving her might look weird.");
-   
     /*
 public AnimationClip idleAnimation;
 public AnimationClip walkAnimation;
 public AnimationClip runAnimation;
 public AnimationClip jumpPoseAnimation;
     */
+   /* if (!_animation)
+        Debug.Log("The character you would like to control doesn't have animations. Moving her might look weird.");
+   
     if(!idleAnimation) {
         _animation = null;
         Debug.Log("No idle animation found. Turning off animations.");
@@ -120,7 +120,7 @@ public AnimationClip jumpPoseAnimation;
     if(!jumpPoseAnimation && canJump) {
         _animation = null;
         Debug.Log("No jump animation found and the character has canJump enabled. Turning off animations.");
-    }
+    }*/
            
 }
 
